@@ -1,0 +1,115 @@
+{
+  "id": "136aef50-fab3-4ace-a714-61a99646de7a",
+  "version": "2.0",
+  "name": "UploadFile",
+  "url": "https://school.moodledemo.net/user/files.php",
+  "tests": [{
+    "id": "c8eae974-bf7d-4d70-9889-c9ac306600e3",
+    "name": "UF-001-001",
+    "commands": [{
+      "id": "9a154c2b-960c-4251-a127-76b3084ac315",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/user/files.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13a3ef69-c052-4332-8fff-9e4408859972",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x847",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85cb6934-7057-45a5-85ad-856eaa92a255",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-file-o",
+      "targets": [
+        ["css=.fa-file-o", "css:finder"],
+        ["xpath=//a[@id='yui_3_18_1_1_1715450309327_336']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be98e5c5-b5d9-4b4a-8a07-590fe52ae5bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Recent files",
+      "targets": [
+        ["linkText=Recent files", "linkText"],
+        ["css=#fp-repo-663fb1c52446a-3 > .nav-link", "css:finder"],
+        ["xpath=//div[@id='fp-repo-663fb1c52446a-3']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Recent files')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57fc1cad-eb75-43f8-8820-6d6dada54181",
+      "comment": "",
+      "command": "click",
+      "target": "id=yui_3_18_1_1_1715450309327_737",
+      "targets": [
+        ["id=yui_3_18_1_1_1715450309327_737", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1715450309327_737", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1715450309327_737']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715450309327_767']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c6b4c2f-8432-4412-9c39-896dd8af4da1",
+      "comment": "",
+      "command": "type",
+      "target": "id=yui_3_18_1_1_1715450309327_737",
+      "targets": [
+        ["id=yui_3_18_1_1_1715450309327_737", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1715450309327_737", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1715450309327_737']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715450309327_767']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\zero-byte.txt"
+    }, {
+      "id": "c1e38198-9d43-4dc9-ab15-bcb9a8ca766d",
+      "comment": "",
+      "command": "click",
+      "target": "id=yui_3_18_1_1_1715450309327_780",
+      "targets": [
+        ["id=yui_3_18_1_1_1715450309327_780", "id"],
+        ["css=#yui_3_18_1_1_1715450309327_780", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1715450309327_780']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715450309327_781']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49ee72e-fde7-4974-af70-aa95ce3fcc27",
+      "comment": "",
+      "command": "click",
+      "target": "id=yui_3_18_1_1_1715450309327_905",
+      "targets": [
+        ["id=yui_3_18_1_1_1715450309327_905", "id"],
+        ["css=#yui_3_18_1_1_1715450309327_905", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715450309327_905']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715450309327_906']/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "970da5e0-d2a8-4ea7-89f7-b65dec9a0dbd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c8eae974-bf7d-4d70-9889-c9ac306600e3"]
+  }],
+  "urls": [],
+  "plugins": []
+}
