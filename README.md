@@ -9,7 +9,7 @@ This repository contains the coursework for the Software Testing course. The ass
     <li><a href="#project-description">Project Description</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#test-cases">Test cases</a></li>
+    <li><a href="#contribution">Contribution</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -41,7 +41,11 @@ To run the tests, use the following command:
     pytest -v FILENAME
   ```
 
-## Test cases
+## Contribution
+1. Le Duy Anh - 3.1, 3.2
+2. Nguyen Tran Bao Ngoc - 3.3, 3.4
+3. Nguyen Tran Ngoc Lien - 3.5, 3.6
+   
 For more informations visit: <a href="https://drive.google.com/drive/folders/11HYJUcYVMgRVKAZemFnmbugzUuGHemJQ">Report</a>
 
 ## Contact
